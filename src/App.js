@@ -35,7 +35,7 @@ export default class App extends Component {
           />
           <Switch>
             <Route exact path="/">
-              <News setProgress={this.setProgress} apiKey={this.apiKey} key="general" pageSize={20} category={'general'} />
+              <News setProgress={this.setProgress} apiKey={this.apiKey} key="home" pageSize={20} category={'general'} />
             </Route>
             <Route exact path="/business">
               <News setProgress={this.setProgress} apiKey={this.apiKey} key="busiess" pageSize={20} category={'business'} />
